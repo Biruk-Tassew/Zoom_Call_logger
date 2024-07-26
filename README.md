@@ -1,6 +1,3 @@
-I apologize for that. Here's the corrected `README.md` file with the entire content in markdown form:
-
-```markdown
 # Zoom Recordings Sync Project
 
 This project automates the process of listing Zoom users, retrieving and handling Zoom cloud recordings, and finally syncing these recordings to Google Drive. The project is divided into three stages:
