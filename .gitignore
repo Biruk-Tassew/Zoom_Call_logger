@@ -35,6 +35,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.rare-chiller-430609-i4-0a468790a00b.json/
 
 # PyCharm
 .idea/
