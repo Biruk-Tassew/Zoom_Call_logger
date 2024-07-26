@@ -117,9 +117,6 @@ Before you begin, ensure you have met the following requirements:
 
 If you have any ideas, feel free to fork the repository and submit a pull request. Alternatively, you can open an issue with your suggestions.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Acknowledgments
 
