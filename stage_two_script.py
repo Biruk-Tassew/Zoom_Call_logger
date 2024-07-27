@@ -16,13 +16,11 @@ load_dotenv()
 # Setup logging
 logging.basicConfig(filename='zoom_sync.log', level=logging.INFO)
 
-# Constants for Zoom and Google API from environment variables
+# Constants for Zoom from environment variables
 ZOOM_BASE_URL = "https://api.zoom.us/v2"
 ZOOM_CLIENT_ID = os.getenv('ZOOM_CLIENT_ID')
 ZOOM_CLIENT_SECRET = os.getenv('ZOOM_CLIENT_SECRET')
 ZOOM_ACCOUNT_ID = os.getenv('ZOOM_ACCOUNT_ID')
-GOOGLE_DRIVE_FOLDER_ID = os.getenv('GOOGLE_DRIVE_FOLDER_ID')
-GOOGLE_SERVICE_ACCOUNT_FILE = os.getenv('GOOGLE_SERVICE_ACCOUNT_FILE')
 
 # Helper function to get Zoom access token
 def get_zoom_access_token():
